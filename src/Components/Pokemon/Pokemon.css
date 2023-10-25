@@ -1,0 +1,68 @@
+.pokemonCard{
+    display: flex;
+    width: 19rem;
+    height: 22rem;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: start;
+    gap: 1.7rem;
+    padding: 15px;
+    margin-bottom: 22px;
+}
+.pokemonCard:hover{
+    background-color: bisque;
+    border-radius: 30px;
+    border: 3px solid red;
+    
+}
+.pokemonImage{
+    height: auto;
+    width: 99%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.pokemonImage img{
+    max-height: 16rem;
+    height: auto;
+    width: 100%;
+    max-width: 15rem;
+
+}
+.pokemonImage img :hover{
+    cursor: pointer;
+}
+.pokemonName{
+    font-family: monospace;
+    font-size: 1.7rem;
+    text-indent: 3rem;
+    letter-spacing: 4px;
+    text-transform: capitalize;
+}
+@media only screen and (max-width: 600px) {
+      /* .detailPokemons{
+
+    }
+    .pokemonImage  {
+        
+    } */
+    .pokemonImage img {
+        max-height: 8rem;
+        max-width: 10rem;
+    
+    }
+    .pokemonCard{
+            /* margin-bottom: 15px;
+    background-color: #fff;
+    width: 11rem;
+    gap: 0rem;
+    justify-content: space-around;
+    height: 10rem;
+    padding: 10px; */
+    height: 14rem;
+    padding-bottom: 0;
+    margin-bottom: 5px;
+    }
+   
+  }

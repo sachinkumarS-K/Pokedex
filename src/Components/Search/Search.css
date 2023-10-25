@@ -1,0 +1,22 @@
+.searchWrapper{
+    width: 40%;
+    margin-bottom: 2rem;
+}
+.searchWrapper input {
+    padding: 10px;
+    width: 100%;
+    border-radius: 10px;
+    height: 3rem;
+    text-indent: 1rem;
+    font-size: 1.3rem;
+    margin-top: 1rem;
+}
+
+@media only screen and (max-width: 600px) {
+    ::placeholder {
+      font-size: large;
+    }
+    .searchWrapper {
+        width: 80%;
+    }
+  }
